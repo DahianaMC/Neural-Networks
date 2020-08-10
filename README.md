@@ -31,3 +31,5 @@
 - I tried to bucket the variables with different tresholds to see if might get a better results, but I could not get anything better than 0.7175 for accuracy and loss 0.56.
 - I ran the model for 50 epochs, I changed to 100, got a little bit better, accuracy of 0.7183 but I could not get any better than 0.7183.  I noticed after 50 epochs the accurary and loss did not really improve.
 - I ran 2 more models to see if I can get a better accuracy, I ran Random Forest Classifier and Logistic Regression.  For the Ramdom Forest the accuracy was 0.69 and for the Logistic Regression was 0.47.  I got better results with the neural network model.
+- I expected to get a similar result with the Ramdom Forest since these 2 models have similar accuracy.
+- I expected for the Logistic Regression to give me worst results, since the accuracy is much lower than the Neural Network.
