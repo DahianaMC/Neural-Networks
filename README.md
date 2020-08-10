@@ -28,5 +28,6 @@
 - When we run the parameters described in the model, we had a loss around 0.56 and accuracy of 0.71.  
 -  We decided to try more neurons for the first hidden layer, but the accuracy and loss stayed almost the same, also we run 3 hidden layers to see if any improvement, but we kept getting almost same results.
 - We changed the activation function for the hidden layers, tried Tanh, Selu, Elu, Softsign, softplus, but Relu gave me the best results.  I also changed the activation function for the output layer but only I got worst results.
-- I tried to bucket the variables with diffrent tresholds to see if might get a better results, but I could not get anything better than 0.7175 for accuracy and loss 0.56.
+- I tried to bucket the variables with different tresholds to see if might get a better results, but I could not get anything better than 0.7175 for accuracy and loss 0.56.
+- I ran the model for 50 epochs, I changed to 100, got a little bit better, accuracy of 0.7183 but I could not get any better than 0.7183.  I noticed after 50 epochs the accurary and loss did not really improve.
 - I ran 2 more models to see if I can get a better accuracy, I ran Random Forest Classifier and Logistic Regression.  For the Ramdom Forest the accuracy was 0.69 and for the Logistic Regression was 0.47.  I got better results with the neural network model.
